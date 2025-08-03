@@ -4,7 +4,7 @@ Bu proje, bir "Landing Page" (Açılış Sayfası) konseptini Porsche markası t
 
 ## Canlı Demoya Ulaşmak İçin
 
-📌 https://canbozv5.github.io/landing-page 📌
+📌 https://canbozv5.github.io/V.C.landing-page-📌
 
 ## İçindekiler
 
