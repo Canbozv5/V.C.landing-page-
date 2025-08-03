@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>V.C. Landing Page</title>
+  </head>
+  <body class="container mx-auto px-4 py-4 bg-gray-300 font-sans">
+    <!-- HEADER start -->
+    <header>
+      <nav>
+        <div class="bg-white flex items-center justify-between rounded-md">
+          <div class="logo">
+            <a href="#home">
+              <img class="h-8" src="img/porsche.png" alt="Porsche Logo" />
+            </a>
+          </div>
+          <a
+            class="p-3 font-bold hover:bg-gray-500 hover:rounded-full hover:text-white"
+            href="#home"
+            >Home</a
+          >
+          <a
+            class="p-3 font-bold hover:bg-gray-500 hover:rounded-full hover:text-white"
+            href="#example"
+            >Example</a
+          >
+          <a
+            class="p-3 font-bold hover:bg-gray-500 hover:rounded-full hover:text-white"
+            href="#ourteam"
+            >Our Team</a
+          >
+          <div
+            class="p-4 shadow rounded-md bg-red-900 text-white hover:bg-red-500 hover:text-black"
+          >
+            <button type="button" href="#contact">Contact</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER end -->
+
+    <!-- MAIN start -->
+    <main class="my-14">
+      <div class="grid grid-cols-3 gap-4 text-gray-950 text-center">
+        <div class="p-4 bg-white rounded-lg shadow">
+          <h2 class="text-4xl font-bold font-mono flex">
+            <img
+              class="mx-auto w-8/12"
+              src="img/porsche.png"
+              alt="Porsche yazisi"
+            />
+            <span>'nizi</span>
+          </h2>
+          <h2 class="text-4xl font-bold font-mono mb-2">
+            BİRLİKTE OLUŞTURALIM
+          </h2>
+          <form class="grid grid-rows-3 w-full px-10">
+            <input
+              class="my-2 p-2 shadow bg-rose-950 rounded-lg text-white"
+              type="name"
+              placeholder="Adınız Soyadınız"
+            />
+            <input
+              class="my-2 p-2 shadow bg-rose-950 rounded-lg text-white"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Email Adresiniz"
+            />
+            <button
+              class="my-4 p-2 shadow bg-rose-400 rounded-lg text-white hover:bg-rose-950"
+              type="button"
+            >
+              Kayıt Yaptır
+            </button>
+          </form>
+        </div>
+        <div class="p-4 rounded-lg bg-rose-950 shadow col-span-2">
+          <img
+            class="w-5/6 mx-auto h-96"
+            src="img/porsche-2.png"
+            alt="Porsche Taycan"
+          />
+        </div>
+      </div>
+    </main>
+    <!-- MAIN end -->
+
+    <!-- SECTION start -->
+    <section id="example">
+      <div class="grid grid-cols-3 gap-5 text-justify">
+        <div class="p-4 shadow bg-white">
+          <h1 class="mb-2 text-2xl font-bold text-center font-mono">
+            Benzersiz Sürüş Deneyimi
+          </h1>
+          <p class="italic">
+            Yılların getirdiği mühendislik bilgisi ve sürekli inovasyon ile
+            tasarlanan Porsche modelleri, her yolculuğunuzu eşsiz bir maceraya
+            dönüştürür. Güç, hız ve kontrolün mükemmel uyumunu hissedin.
+          </p>
+        </div>
+        <div class="p-4 shadow bg-white">
+          <h1 class="mb-2 text-2xl font-bold text-center font-mono">
+            Zamansız Tasarım Harikaları
+          </h1>
+          <p class="italic">
+            Her bir Porsche, sadece bir araç değil, aynı zamanda bir sanat
+            eseridir. Akıcı çizgileri, ikonik siluetleri ve detaylara verilen
+            önem ile tüm bakışları üzerine çeken bir estetiğe sahiptir.
+          </p>
+        </div>
+        <div class="p-4 shadow bg-white">
+          <h1 class="mb-2 text-2xl font-bold text-center font-mono">
+            Küresel Bir Aile
+          </h1>
+          <p class="italic">
+            Porsche, sadece otomobil üretmekle kalmaz, aynı zamanda tutkulu bir
+            topluluk inşa eder. Yıllara dayanan şanlı geçmişi ve sadık hayran
+            kitlesiyle Porsche, bir yaşam tarzını temsil eder.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION end -->
+
+    <!-- SECTION start -->
+    <section class="my-14">
+      <div class="grid grid-cols-2 gap-4 text-black text-center">
+        <div class="p-4 rounded-lg my-12">
+          <img src="img/porsche-3.png" alt="Porsche Modelleri" />
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow">
+          <div class="grid grid-rows-3 justify-items-center">
+            <div class="row-span-1">
+              <img
+                class="rounded-full w-4/12 mx-auto"
+                src="img/Ferdinand-Porsche.jpg"
+                alt="Ferdinand Porsche"
+              />
+            </div>
+            <div class="row-span-1 my-8">
+              <p class="italic font-thin">
+                "Geleceğin otomobili, bir savaş makinesi değil, her zaman bir
+                yaşam aracı olmuştur ve öyle kalacaktır."
+              </p>
+            </div>
+            <div class="row-span-1 my-4 p-1">
+              <h4 class="text-gray-400">Ferdinand PORSCHE</h4>
+              <h4 class="text-gray-400">Kurucu, Porsche AG</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION end -->
+
+    <!-- SECTION start -->
+    <section class="my-36" id="ourteam">
+      <div class="text-center text-black">
+        <h1 class="text-4xl font-bold">Our team is here to help you</h1>
+        <h4 class="text-xl font-medium text-gray-400 mt-5">
+          <a href="#crew">Meet with our crew ></a>
+        </h4>
+        <div class="grid grid-cols-4 gap-4 mt-20" id="crew">
+          <div>
+            <img class="rounded-xl" src="img/crew1.jpg" alt="Adam Ma" />
+            <h1 class="text-xl font-bold my-3">Adam Ma</h1>
+            <h3 class="text-xl font-medium text-gray-600 my-3">
+              General Manager
+            </h3>
+            <i class="fa-solid fa-envelope"></i
+            ><span class="mx-2 my-2">adamma.porsche@gmail.com</span><br />
+            <i class="fa-solid fa-phone"></i
+            ><span class="mx-2">212 450 4897</span>
+          </div>
+          <div>
+            <img
+              class="rounded-xl"
+              src="img/crew2.jpg"
+              alt="Taylor Yakubowich"
+            />
+            <h1 class="text-xl font-bold my-3">Taylor Yakubowich</h1>
+            <h3 class="text-xl font-medium text-gray-600 my-3">
+              Parts Manager
+            </h3>
+            <i class="fa-solid fa-envelope"></i
+            ><span class="mx-2 my-2">taylor.porsche@gmail.com</span><br />
+            <i class="fa-solid fa-phone"></i
+            ><span class="mx-2">212 450 4897</span>
+          </div>
+          <div>
+            <img class="rounded-xl" src="img/crew3.jpg" alt="Steven Ward" />
+            <h1 class="text-xl font-bold my-3">Steven Ward</h1>
+            <h3 class="text-xl font-medium text-gray-600 my-3">
+              Service Manager
+            </h3>
+            <i class="fa-solid fa-envelope"></i
+            ><span class="mx-2 my-2">stevenward.porsche@gmail.com</span><br />
+            <i class="fa-solid fa-phone"></i
+            ><span class="mx-2">212 450 4897</span>
+          </div>
+          <div>
+            <img class="rounded-xl" src="img/crew4.jpg" alt="Gibbon Guo" />
+            <h1 class="text-xl font-bold my-3">Gibbon Guo</h1>
+            <h3 class="text-xl font-medium text-gray-600 my-3">
+              General Sales Manager
+            </h3>
+            <i class="fa-solid fa-envelope"></i
+            ><span class="mx-2 my-2">adamma.porsche@gmail.com</span><br />
+            <i class="fa-solid fa-phone"></i
+            ><span class="mx-2">212 450 4897</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION end -->
+
+    <!-- FOOTER start -->
+    <footer class="bg-rose-950 text-white justify-items-center rounded-xl">
+      <div class="grid grid-cols-1">
+        <ul class="flex">
+          <span class="mx-5">© 2025</span>
+          <li><a class="mx-5 underline" href="#">Legal Notice</a></li>
+          <li><a class="mx-5 underline" href="#">Privacy Policy</a></li>
+          <li><a class="mx-5 underline" href="#">Cookies Policy</a></li>
+        </ul>
+        <img class="my-12" src="img/porsche-Photoroom.png" alt="porsche logo" />
+      </div>
+    </footer>
+    <!-- FOOTER end -->
+  </body>
+</html>
